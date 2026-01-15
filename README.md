@@ -1,1 +1,1 @@
-# Learning c# with mini-projects
+# Learning C# with mini-projects
