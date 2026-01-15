@@ -1,13 +1,9 @@
 using System;
 
-
-class Main
+namespace Main 
 {
-    static void Main(string[] args)
+    public class Main
     {
-        
+       
     }
-    
-
-
 }
