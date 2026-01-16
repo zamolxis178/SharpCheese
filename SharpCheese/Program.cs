@@ -5,10 +5,16 @@ public class Program
 {
     static void Main(string[] args)
     {
-        //Storing user_data
-        Console.WriteLine("What's your name?");
-        var user_name = Console.ReadLine();
-        Console.WriteLine("Hello " + user_name);
+        //Times Table
+        // Ask the user for a number
+        // Make a multiplication table for that number
+        Console.WriteLine("Enter a number: ");
+        int user_input = Convert.ToInt32(Console.ReadLine());
+
+        for (int i = 1; i <= 10; i++)
+        {
+            Console.WriteLine(user_input + " x " + i + " = " + (i * user_input));
+        }
     }
 
 
