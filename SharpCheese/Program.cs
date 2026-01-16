@@ -5,15 +5,28 @@ public class Program
 {
     static void Main(string[] args)
     {
-        //Times Table
-        // Ask the user for a number
-        // Make a multiplication table for that number
+                //FizzBuzz Game
         Console.WriteLine("Enter a number: ");
         int user_input = Convert.ToInt32(Console.ReadLine());
 
-        for (int i = 1; i <= 10; i++)
+        for (int i = 1; i <= user_input; i++)
         {
-            Console.WriteLine(user_input + " x " + i + " = " + (i * user_input));
+            if (i % 3 == 0 && i % 5 == 0)
+            {
+                Console.WriteLine("FizzBuzz");
+            }
+            else if (i % 3 == 0)
+            {
+                Console.WriteLine("Fizz");
+            }
+            else if (i % 5 == 0)
+            {
+                Console.WriteLine("Buzz");
+            }
+            else
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 
