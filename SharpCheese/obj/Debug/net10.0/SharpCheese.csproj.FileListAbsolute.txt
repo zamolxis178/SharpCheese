@@ -1,0 +1,15 @@
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\bin\Debug\net10.0\SharpCheese.exe
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\bin\Debug\net10.0\SharpCheese.deps.json
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\bin\Debug\net10.0\SharpCheese.runtimeconfig.json
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\bin\Debug\net10.0\SharpCheese.dll
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\bin\Debug\net10.0\SharpCheese.pdb
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\obj\Debug\net10.0\SharpCheese.GeneratedMSBuildEditorConfig.editorconfig
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\obj\Debug\net10.0\SharpCheese.AssemblyInfoInputs.cache
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\obj\Debug\net10.0\SharpCheese.AssemblyInfo.cs
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\obj\Debug\net10.0\SharpCheese.csproj.CoreCompileInputs.cache
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\obj\Debug\net10.0\SharpCheese.sourcelink.json
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\obj\Debug\net10.0\SharpCheese.dll
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\obj\Debug\net10.0\refint\SharpCheese.dll
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\obj\Debug\net10.0\SharpCheese.pdb
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\obj\Debug\net10.0\SharpCheese.genruntimeconfig.cache
+D:\Private\Code\Coding\Fun_Projects\1.C3\SharpCheese\SharpCheese\obj\Debug\net10.0\ref\SharpCheese.dll
