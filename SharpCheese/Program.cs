@@ -5,28 +5,13 @@ public class Program
 {
     static void Main(string[] args)
     {
-                //FizzBuzz Game
-        Console.WriteLine("Enter a number: ");
-        int user_input = Convert.ToInt32(Console.ReadLine());
+        //Reverse a string
+        Console.WriteLine("Enter a message: ");
+        var user_name = Console.ReadLine();
 
-        for (int i = 1; i <= user_input; i++)
+        for (int i = user_name.Length - 1; i >= 0; i--)
         {
-            if (i % 3 == 0 && i % 5 == 0)
-            {
-                Console.WriteLine("FizzBuzz");
-            }
-            else if (i % 3 == 0)
-            {
-                Console.WriteLine("Fizz");
-            }
-            else if (i % 5 == 0)
-            {
-                Console.WriteLine("Buzz");
-            }
-            else
-            {
-                Console.WriteLine(i);
-            }
+            Console.WriteLine(user_name[i]);
         }
     }
 
