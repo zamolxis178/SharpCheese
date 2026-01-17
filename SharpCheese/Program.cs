@@ -6,23 +6,21 @@ public class Program
 {
     static void Main(string[] args)
     {
-        //Array of multiples
-        Console.WriteLine("Give a number to start with: ");
-        int number = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Give a number for the length");
-        int length = Convert.ToInt32(Console.ReadLine());
-        int[] result = new int[length];
+        //Area of a Triangle
+        Console.WriteLine("Give the width of triangle: ");
+        float width = Convert.ToSingle(Console.ReadLine());
+        Console.WriteLine("Give the height of triangle: ");
+        float height = Convert.ToSingle(Console.ReadLine());
 
-        for (int i = 1; i <= result.Length; i++)
-        {
-            result[i - 1] = number * i;
-        }
+        float area = AreaTriangle(width, height);
+        System.Console.WriteLine($"The area of triangle is: {area}");
 
-        foreach (var item in result)
-        {
-            System.Console.WriteLine($"{item}");
-        }
+    }
 
+    static float AreaTriangle(float width, float height)
+    {
+        
+        return (width * height) / 2;
     }
 
 
