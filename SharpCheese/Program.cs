@@ -6,39 +6,23 @@ public class Program
 {
     static void Main(string[] args)
     {
-        //Odd/Even number list
-        List<int> odd = new List<int>();
-        List<int> even = new List<int>();
+        //Array of multiples
+        Console.WriteLine("Give a number to start with: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Give a number for the length");
+        int length = Convert.ToInt32(Console.ReadLine());
+        int[] result = new int[length];
 
-        Console.WriteLine("Give a number from 0-20");
-        int user_input = Convert.ToInt32(Console.ReadLine());
-
-        for (int i = 0; i <= user_input; i++)
+        for (int i = 1; i <= result.Length; i++)
         {
-            if (i % 2 == 0)
-            {
-                even.Add(i);
-            }
-            else
-            {
-                odd.Add(i);
-            }
+            result[i - 1] = number * i;
         }
 
-        Console.WriteLine("Even num list");
-        foreach (var item in even)
+        foreach (var item in result)
         {
-            Console.Write($"{item} ");
+            System.Console.WriteLine($"{item}");
         }
-        Console.WriteLine();
 
-
-        Console.WriteLine("Odd num list");
-        foreach (var item in odd)
-        {
-            Console.Write($"{item} ");
-        }
-        Console.WriteLine();
     }
 
 
