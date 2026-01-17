@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharpCheese")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9ab4a00baa883abc027b48494ede6b01dd028dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0df08d4c261985d863c76605a0419520e728af27")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharpCheese")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharpCheese")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
